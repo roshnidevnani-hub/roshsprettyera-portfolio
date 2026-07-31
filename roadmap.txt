@@ -1,0 +1,26 @@
+roshsprettyera/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx              (Home)
+│   ├── about/page.tsx
+│   ├── portfolio/page.tsx    (Videos + Photos)
+│   ├── services/page.tsx
+│   ├── contact/page.tsx
+│   └── globals.css
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+|   ├── ContactForm.tsx 
+|   ├── Stats.tsx
+│   └── mediaData.tsx
+
+├── data/
+│   └── media.ts
+├── public/
+│   ├── videos/   (4 videos from v1 to v4)
+│   ├── photos/   (8 photos from p1 to p4 are there)
+│   └── hero.png
+├── next.config.js
+├── tailwind.config.ts
+├── package.json
+└── vercel.json
