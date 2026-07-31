@@ -1,4 +1,3 @@
-
 /** @type {import('next').NextConfig} */
 
 const isDevelopment = process.env.NODE_ENV === "development";
@@ -26,10 +25,6 @@ const nextConfig = {
             value: "SAMEORIGIN",
           },
           {
-            key: "X-XSS-Protection",
-            value: "1; mode=block",
-          },
-          {
             key: "Referrer-Policy",
             value: "strict-origin-when-cross-origin",
           },
@@ -52,6 +47,9 @@ const nextConfig = {
               "font-src 'self' https://fonts.gstatic.com",
               `script-src 'self' 'unsafe-inline'${isDevelopment ? " 'unsafe-eval'" : ""}`,
               "frame-ancestors 'self'",
+              "base-uri 'self'",
+              "form-action 'self' https://formspree.io",
+              "object-src 'none'",
             ].join("; "),
           },
         ],
