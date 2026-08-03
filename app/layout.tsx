@@ -81,12 +81,6 @@ export const metadata: Metadata = {
     canonical: "/",
   },
 
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/logo.png",
-  },
-
   openGraph: {
     title: "roshsprettyera | UGC Creator",
 
