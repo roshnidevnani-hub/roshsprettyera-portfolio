@@ -79,7 +79,7 @@ export default function Footer() {
         <p className="mt-3 text-sm text-deeprose/70">
   Website crafted with ♡ by{" "}
   <a
-    href="https://radiance-web-studios.vercel.app"
+    href="https://radiance-web-studio.vercel.app"
     target="_blank"
     rel="noopener noreferrer"
     className="font-semibold text-mauve transition-colors hover:text-rose"
